@@ -136,7 +136,7 @@ function HomeContainer({ selectedPage, setSelectedPage }) {
       )),
       textboxTitle: "a selection of my projects",
       textboxTitle2:
-        "I tried to deliver an overvioew of my learning journey and progress to emphasize my development",
+        "a small overview of my learning journey and progress to emphasize my development",
       textboxText: "",
     };
   } else if (selectedPage === "contact") {

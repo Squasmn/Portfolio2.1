@@ -1,0 +1,53 @@
+@import "/src/App.scss";
+
+.past-container {
+  background-image: url(../../assets/david/calvin-craig-y8b001e2bs0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  color: bisque;
+  word-wrap: break-word;
+
+  h2 {
+    color: rgb(177, 53, 0);
+  }
+}
+.past-content-1 {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1%;
+  p {
+    margin-left: 1vw;
+    margin-top: 1vh;
+  }
+}
+
+.past-content-2 {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1%;
+}
+.past-content-2-1 {
+  padding: 0;
+  margin: 0;
+  ul {
+    list-style: inside;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    h3,
+    h4 {
+      color: rgb(177, 53, 0);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .past-container {
+    width: 60vw;
+  }
+}

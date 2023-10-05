@@ -1,0 +1,18 @@
+@import "./src/App.scss";
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a > svg {
+  fill: $purple;
+  width: 3vw;
+  :hover {
+    fill: $pink;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+  }
+}
